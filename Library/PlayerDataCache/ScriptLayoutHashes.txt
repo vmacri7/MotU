@@ -1,6 +1,6 @@
 Lumin
 PlayerPath?
-C:/Users/MPCR Lab/Downloads/My-Universe-master/MyUniverseVersion1,1.mpk
+C:/Users/MPCR Lab/Downloads/My-Universe-master/MyUniverseVersion1,2.mpk
 SceneListBegin?
 Assets/Scenes/MainBody.unity
 SceneListEnd?
@@ -157,6 +157,7 @@ b070c608a2c3037a3af830af58b00d9b Assembly-CSharp.dll:MagicLeap.DestroyAfterTime
 cb11bad297ab0b4271df38fdade7ef07 Assembly-CSharp.dll:MagicLeap.ImageTrackingVisualizer
 7c6cfca53c94c1ede60129ec50d74252 Assembly-CSharp.dll:MagicLeap.ImageTrackingExample
 8234eb6652149e31d76420b6f5205093 Assembly-CSharp.dll:MagicLeap.KeyPoseVisualizer
+531da7bcfbfe48a764ed10b84d5e508b Assembly-CSharp.dll:.SelectionCollision
 c51003c9192e8c26fa1b5347c6106b74 Assembly-CSharp.dll:MagicLeap.PlacementObject
 a814b880ff4f40c17dfbb0350c7828a2 Assembly-CSharp.dll:MagicLeap.ControllerVisualizer
 7df154d21c515720f13019d6a5f67eb5 Assembly-CSharp.dll:UnityEngine.XR.MagicLeap.HandTracking
@@ -227,9 +228,8 @@ ebf9b758f925f7ea2ca445f4aef5890b Assembly-CSharp.dll:.PlanetSelection
 22eb76d506347cff3059963b49529aee Assembly-CSharp.dll:MagicLeap.VignetteExample
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:MagicLeap.ContentDragHandler
 470efe9848fbf1a9b88e929732c3cca1 Assembly-CSharp.dll:MagicLeap.PlacementExample
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ControllerTracker
 66eb4003e71585f0ef4c23034c2aa3b2 Assembly-CSharp.dll:MagicLeap.VirtualPointer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AnimationManager
 08a92322e38205b685c92fa359d21d7a Assembly-CSharp.dll:MagicLeap.MeshingVisualizer
 2c832bb50381ee4d40b2f62c67f06a67 Assembly-CSharp.dll:MagicLeap.DeepSeaExplorerLauncher
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ControllerTracker
-4b333fc4263402fae99ec22d8bc7a112 Assembly-CSharp.dll:.SelectionCollision

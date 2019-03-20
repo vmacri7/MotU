@@ -21,6 +21,8 @@ public class PlanetSelection : MonoBehaviour {
 		MLHands.KeyPoseManager.EnableKeyPoses (_gestures, true, false);
 		pos = new Vector3[3];
 
+		sphereIndex.SetActive (false);
+
 		//sphereIndex = GameObject.Find("SelectionMenu");
 	}
 	private void OnDestroy () {
@@ -30,20 +32,19 @@ public class PlanetSelection : MonoBehaviour {
 	private void Update () {
 		if (GetGesture (MLHands.Right, MLHandKeyPose.Finger)) {
 			FingerDetected = true;
-		} else if (!GetGesture (MLHands.Right, MLHandKeyPose.Finger)){
+		} else if (!GetGesture (MLHands.Right, MLHandKeyPose.Finger)) {
 			FingerDetected = false;
 		}
-			
+
 		if (FingerDetected == true) {
-				ShowPoints ();
-				//sphereIndex.SetActive = true;
-				//print("active");
-			}
-		else {
+			ShowPoints ();
+			//sphereIndex.SetActive = true;
+			//print("active");
+		} else {
 			//sphereIndex.SetActive = false;
-			print("inactive");
+			print ("inactive");
 		}
-// Makes the menu face the player at all times
+		// Makes the menu face the player at all times
 		sphereIndex.transform.rotation = transform.rotation;
 	}
 
@@ -51,8 +52,10 @@ public class PlanetSelection : MonoBehaviour {
 
 		print ("active");
 
-// Places the menu on the finger of the player
+		// Places the menu on the finger of the player
 		pos[0] = MLHands.Right.Index.KeyPoints[0].Position;
+
+		sphereIndex.SetActive (true);
 
 		sphereIndex.transform.position = pos[0];
 
